@@ -36,3 +36,49 @@ The function will have a TypeError, since const variable finalPrice cannot be re
 
 # Question 13
 
+### A
+student.name
+
+### B
+student['Grad Year']
+
+### C
+student.greeting();
+
+### D
+student['Favorite Teacher'].name
+
+### E
+student.courseLoad[0]
+
+# Question 14
+
+### A
+32
+String conversion of 2 to match with the first encountered char variable '3'.
+### B
+1
+Numeric conversion of '3' to match with the subtraction, causing '3' to convert into number 3.
+
+### C
+3
+Numeric conversion of null into 0, since you cannot add things to null.
+### D
+3null
+String conversion of null to match with char variable '3'.
+
+### E
+4
+Since 3 cannot be added to a boolean object, true is converted into 1 by numeric conversion, and thus 1+3 = 4.
+
+### F
+0
+Since you cannot add boolean or null, they both get numeric conversion; both are 0, so 0+0 = 0.
+
+### G
+3undefined
+String conversion of undefined to match with string variable "3".
+
+### H
+NaN
+Due to subtraction, this is a numeric conversion, and thus undefined turns into NaN. NaN overrides any math values and thus returns NaN.
