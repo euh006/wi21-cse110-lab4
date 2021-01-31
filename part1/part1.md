@@ -95,19 +95,26 @@ Looks at the two strings, '2' is "bigger" than the first char of '12', thus '2' 
 
 ### C
 true
+Converts '2' into 2, 2 is equal to 2, return true.
+
 ### D
 false
+2 and '2' have different type, so === returns false.
 
 ### E
 false
+Converts true into 1, 1 isn't equal to 2, return false.
 
 ### F
 true
+They both have the same type, and since non-zero boolean type returns true, true is equal to true, so return true.
 
 # Question 16
 While == tries to convert the type based on the variables, === checks the equality without type conversion; if the two types are different, it immediately returns false.
 
 # Question 17
+'How are you?' will be printed out. Boolean(2) will return true since it's a non-zero number.
+
 
 # Question 18
 
