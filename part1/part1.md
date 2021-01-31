@@ -82,3 +82,37 @@ String conversion of undefined to match with string variable "3".
 ### H
 NaN
 Due to subtraction, this is a numeric conversion, and thus undefined turns into NaN. NaN overrides any math values and thus returns NaN.
+
+# Question 15
+
+### A
+true
+Converts '2' into number 2, 2 > 1 = true.
+
+### B
+false
+Looks at the two strings, '2' is "bigger" than the first char of '12', thus '2' < '12' = false.
+
+### C
+true
+### D
+false
+
+### E
+false
+
+### F
+true
+
+# Question 16
+While == tries to convert the type based on the variables, === checks the equality without type conversion; if the two types are different, it immediately returns false.
+
+# Question 17
+
+# Question 18
+
+# Question 19
+
+# Question 20
+
+# Question 21
