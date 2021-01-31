@@ -149,6 +149,12 @@ newArr.push((array[i]+2) * 2);
 ```
 This would mean that the new array contains elements that are added by 2 and then multipled by 2. The returned value is [(1+2)*2,(2+2)*2,(3+2)*2] = [6,8,10].
 # Question 20
-
+We create a new function and move the code into the function. Then, we set an interval of 1000 miliseconds that calls on the new function with the code "var v = setInterval(callTime,1000);".
 
 # Question 21
+1
+4
+3
+2
+
+1 and 4 print out immediately because there is no timer for them. Having timer start at delay of 0 means that after the code runs all of non-setTimeout lines, it will start setTimeout lines with 0 delay after the shortest delay possible, printing out 3 right after 1 and 4. Then, after 1 second, 2 will print out, causing this order to happen.
