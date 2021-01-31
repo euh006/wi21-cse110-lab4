@@ -115,11 +115,26 @@ While == tries to convert the type based on the variables, === checks the equali
 # Question 17
 'How are you?' will be printed out. Boolean(2) will return true since it's a non-zero number.
 
-
 # Question 18
+Within the for loop of "for (let cars in statistics)", cars represent the property and statistics[cars] represent the value of that specific property. Thus, we need to see if the first letter is r by using .charAt(0) on cars, and we need to see if the value is an odd number by using modular on statistics[cars] to see if there are any remainders.
 
 # Question 19
-
+Within the for loop,
+```
+newArr.push(callback(array[i], function(x) {
+    return x * 2;
+}));
+```
+is equivalent to
+```
+newArr.push(doSomething(array[i], function(x)));
+```
+based on the original parameter. that would mean we would replace all x with what's within doSomething function, which is num + 2. Thus, we would be returning (num+2)*2, where num in here is array[i] (first parameter); therefore, the simplified version of the loop would be:
+```
+newArr.push((array[i]+2) * 2);
+```
+This would mean that the new array contains elements that are added by 2 and then multipled by 2. The returned value is [(1+2)*2,(2+2)*2,(3+2)*2] = [6,8,10].
 # Question 20
+
 
 # Question 21
